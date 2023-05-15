@@ -1,4 +1,4 @@
-﻿$targetDir = "C:\Users\terui.takeshi\Downloads\ISO"
+﻿$targetDir = "D:\"
 $files = Get-ChildItem $targetDir -File
 
 foreach ($file in $files){
