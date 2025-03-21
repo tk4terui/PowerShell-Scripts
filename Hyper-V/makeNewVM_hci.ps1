@@ -7,8 +7,8 @@ $vhdFile = "$vhdpath\os.vhdx"
 New-Item $vhdPath -ItemType Directory
 Copy-Item $jeosFile -Destination $vhdFile
 
-$VMName = "hoge"
-$MemoryStartup = 4GB
+$VMName = $hostname
+$MemoryStartup = 2GB
 $Generation = 2
 $SwitchName = "LACP"
 $ConfigurationLocation = "C:\ClusterStorage\StorageVolumeName\Hyper-V"
