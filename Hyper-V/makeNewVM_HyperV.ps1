@@ -1,6 +1,6 @@
-﻿$hostname = "opensuse-jeos"
+﻿$hostname = "ubuntu"
 $vhdpath = "C:\Hyper-V"
-$jeosFile = "C:\Hyper-V\import\openSUSE-Leap-15.6-Minimal-VM.x86_64-MS-HyperV.vhdx"
+$jeosFile = "C:\Hyper-V\import\os.vhdx"
 $vhdPath = "$vhdpath\$hostname\Virtual Hard Disks\"
 $vhdFile = "$vhdpath\os.vhdx"
 
